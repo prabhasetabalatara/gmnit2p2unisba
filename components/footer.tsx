@@ -49,9 +49,9 @@ export default function Footer() {
             Gerakan Mahasiswa Nasional Indonesia <br />
             Cabang T2P2 Universitas Islam Balitar
           </p>
-          <p className="italic text-gray-400 text-sm">
-            "Nasionalisme adalah perjuangan, bukan sekadar kata." – GMNI
-          </p>
+<p className="italic text-gray-400 text-sm">
+  &quot;Nasionalisme adalah perjuangan, bukan sekadar kata.&quot; – GMNI
+</p>
         </div>
 
         {/* Navigasi Cepat */}
@@ -111,3 +111,4 @@ export default function Footer() {
     </footer>
   );
 }
+

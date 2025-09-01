@@ -76,7 +76,7 @@ export default function SejarahGMNIPage() {
                     GMNI fokus memperluas basis organisasi di berbagai kampus dan kota. Menjadi wadah bagi mahasiswa yang tidak hanya haus akan ilmu, tetapi juga ingin terlibat langsung dalam perjuangan politik kebangsaan.
                   </p>
                   <div className="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-sm rounded-full">
-                    "Nasionalis, Demokratis, Marhaenis"
+                    Nasionalis, Demokratis, Marhaenis
                   </div>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export default function SejarahGMNIPage() {
                   <div className="badge-primary mb-4">Pasca 1965</div>
                   <h3 className="heading-card mb-4 group-hover:text-red-600 transition-colors">Perpecahan Internal</h3>
                   <p className="text-card mb-4">
-                    Peristiwa politik 1965 membawa dampak besar. Stigma politik dan tekanan rezim Orde Baru membuat GMNI terdesak dan terjadi perpecahan internal menjadi GMNI "Soekarnois" dan GMNI "Zamrud".
+                    Peristiwa politik 1965 membawa dampak besar. Stigma politik dan tekanan rezim Orde Baru membuat GMNI terdesak dan terjadi perpecahan internal menjadi GMNI Soekarnois dan GMNI Zamrud.
                   </p>
                   <div className="flex space-x-2">
                     <span className="px-3 py-1 bg-orange-50 text-orange-600 text-sm rounded-full">GMNI Soekarnois</span>
@@ -358,7 +358,7 @@ Kongres Penting
   Ikrar Prasetya Korps
   </h2>
             <div className="w-16 h-1 bg-red-500 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-300 italic">"Pejuang Pemikir-Pemikir Pejuang"</p>
+            <p className="text-xl text-gray-300 italic">Pejuang Pemikir-Pemikir Pejuang</p>
           </div>
 
           <div className="card-base p-8 md:p-12 bg-white/10 backdrop-blur-sm border border-white/20">
@@ -396,7 +396,7 @@ Kongres Penting
               
               <div className="mt-8 p-6 bg-white/10 rounded-2xl border border-white/20">
                 <p className="text-lg italic text-center">
-                  "Berdasarkan pengakuan-pengakuan ini, <strong>Demi Kehormatan</strong>, kami berjanji akan bersungguh-sungguh menjalankan kewajiban untuk mengamalkan semua pengakuan ini dalam karya hidup kami sehari-hari."
+                  Berdasarkan pengakuan-pengakuan ini, <strong>Demi Kehormatan</strong>, kami berjanji akan bersungguh-sungguh menjalankan kewajiban untuk mengamalkan semua pengakuan ini dalam karya hidup kami sehari-hari.
                 </p>
               </div>
               

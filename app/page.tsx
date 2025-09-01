@@ -185,7 +185,7 @@ export default function UnderDevelopmentPage() {
               <div className="space-y-6 text-gray-700">
                 <div className="p-6 bg-white rounded-2xl shadow-sm">
                   <p className="text-lg italic text-center mb-4">
-                    "Halo teman-teman GMNI! 👋"
+                    Halo teman-teman GMNI! 👋
                   </p>
                   <p className="leading-relaxed">
                     Website ini dikembangkan dengan penuh cinta dan semangat untuk mendukung perjuangan GMNI T2P2 Unisba Blitar. 

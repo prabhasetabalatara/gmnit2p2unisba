@@ -367,7 +367,7 @@ export default function VisiMisiGMNIT2P2Page() {
             <div className="card-base p-8 bg-white/10 backdrop-blur-sm border border-white/20">
               <div className="space-y-4 text-white">
                 <p className="text-lg font-semibold">
-                  "Dari Mahasiswa, Oleh Mahasiswa, Untuk Rakyat"
+                  &quot;Dari Mahasiswa, Oleh Mahasiswa, Untuk Rakyat&quot;
                 </p>
                 <p className="text-gray-300">
                   GMNI T2P2 Unisba Blitar mengajak seluruh mahasiswa progresif untuk bersama-sama membangun masa depan yang lebih baik bagi bangsa dan rakyat Indonesia.

@@ -189,7 +189,7 @@ export default function UnderDevelopmentPage() {
                   </p>
                   <p className="leading-relaxed">
                     Website ini dikembangkan dengan penuh cinta dan semangat untuk mendukung perjuangan GMNI T2P2 Unisba Blitar. 
-                    Saat ini developer sedang dalam fase <strong className="text-blue-600">"recharge battery"</strong> setelah begadang beberapa malam 
+                    Saat ini developer sedang dalam fase <strong className="text-blue-600">recharge battery</strong> setelah begadang beberapa malam 
                     untuk menyelesaikan bagian berita, sejarah, dan visi misi.
                   </p>
                 </div>

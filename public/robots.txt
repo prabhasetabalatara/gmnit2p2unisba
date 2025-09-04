@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://t2p2solid.online
+
+# Sitemaps
+Sitemap: https://t2p2solid.online/sitemap.xml

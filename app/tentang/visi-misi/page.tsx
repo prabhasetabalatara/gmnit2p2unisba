@@ -10,10 +10,10 @@ export default function VisiMisiGMNIT2P2Page() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="gradient-hero text-white relative overflow-hidden pt-20 md:pt-24">
+      <section className="gradient-hero text-white relative overflow-hidden pt-20 md:pt-50">
         <div className="absolute inset-0">
           <Image
-            src="https://gqdbqvxnctxrgtjimqxn.supabase.co/storage/v1/object/public/foto/visi/ksb.jpg"
+            src="https://gqdbqvxnctxrgtjimqxn.supabase.co/storage/v1/object/public/foto/visi/12.jpg"
             alt="GMNI T2P2 Unisba Blitar"
             fill
             className="object-cover opacity-30"
@@ -377,7 +377,7 @@ export default function VisiMisiGMNIT2P2Page() {
             
             <div className="mt-8 space-y-2 text-2xl font-bold">
               <p className="text-red-400">Merdeka....!!!</p>
-              <p className="text-white">GMNI T2P2, Jaya....!!!</p>
+              <p className="text-white">GMNI, Jaya....!!!</p>
               <p className="text-red-400">Marhaen, Menang....!!!</p>
             </div>
           </div>

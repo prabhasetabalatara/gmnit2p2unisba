@@ -293,7 +293,7 @@ export default function HomePage() {
               >
                 <Sparkles className="w-5 h-5 text-yellow-300" />
               </motion.div>
-              <span className="text-yellow-100 text-sm font-medium tracking-wide">Sorotan Kegiatan Terbaru</span>
+              <span className="text-yellow-100 text-sm font-medium tracking-wide">Selamat Datang</span>
             </motion.div>
           </motion.div>
 
@@ -354,27 +354,29 @@ export default function HomePage() {
           )}
         </div>
 
-        {/* Enhanced Prev/Next buttons */}
-        {slides.length > 1 && (
-          <>
-            <motion.button
-              onClick={() => setCurrentHero((p) => (p - 1 + slides.length) % slides.length)}
-              whileHover={{ scale: 1.1, x: -5 }}
-              whileTap={{ scale: 0.9 }}
-              className="absolute left-6 top-1/2 -translate-y-1/2 bg-white/10 backdrop-blur-lg hover:bg-white/20 text-white rounded-full p-4 border border-white/20 transition-all duration-300 group"
-            >
-              <ChevronLeft className="w-6 h-6 group-hover:-translate-x-1 transition-transform" />
-            </motion.button>
-            <motion.button
-              onClick={() => setCurrentHero((p) => (p + 1) % slides.length)}
-              whileHover={{ scale: 1.1, x: 5 }}
-              whileTap={{ scale: 0.9 }}
-              className="absolute right-6 top-1/2 -translate-y-1/2 bg-white/10 backdrop-blur-lg hover:bg-white/20 text-white rounded-full p-4 border border-white/20 transition-all duration-300 group"
-            >
-              <ChevronRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-            </motion.button>
-          </>
-        )}
+{/* Enhanced Prev/Next buttons */}
+{slides.length > 1 && (
+  <>
+    <motion.button
+      onClick={() => setCurrentHero((p) => (p - 1 + slides.length) % slides.length)}
+      whileHover={{ scale: 1.1, x: -5 }}
+      whileTap={{ scale: 0.9 }}
+      className="absolute left-6 bottom-8 bg-white/10 backdrop-blur-lg hover:bg-white/20 
+                 text-white rounded-full p-4 border border-white/20 transition-all duration-300 group"
+    >
+      <ChevronLeft className="w-6 h-6 group-hover:-translate-x-1 transition-transform" />
+    </motion.button>
+    <motion.button
+      onClick={() => setCurrentHero((p) => (p + 1) % slides.length)}
+      whileHover={{ scale: 1.1, x: 5 }}
+      whileTap={{ scale: 0.9 }}
+      className="absolute right-6 bottom-8 bg-white/10 backdrop-blur-lg hover:bg-white/20 
+                 text-white rounded-full p-4 border border-white/20 transition-all duration-300 group"
+    >
+      <ChevronRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+    </motion.button>
+  </>
+)}
 
         {/* Scroll indicator */}
         <motion.div
